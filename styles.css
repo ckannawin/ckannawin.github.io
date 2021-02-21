@@ -1,0 +1,65 @@
+
+html body,
+html body nav {
+    background-color: #E8E5E2;
+}
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+html body header * {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.logo {
+    height: auto;
+    width: 15%;
+    Max-width: 190px;
+} 
+
+.nav-link {
+    color: black;
+}
+
+.diagonal-box {
+    background: #D7695C url(img/asfalt-dark.png) repeat center;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+    padding-bottom: 75px;
+    padding-top: 40px;
+}
+.content {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.work-btn {
+    color: black;
+}
+.profile-container {
+    position: relative;
+    width: 300px;
+}
+.shape-one,
+.shape-two {
+    content: '';
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.shape-one {
+    background: black;
+    top: -10px;
+    right: 30px;
+}
+.shape-two {
+    background: #E8E5E2;
+    top: 10px;
+    left: 30px;
+}
+
+/* PROJECT SECTION INTERACTIONS */
