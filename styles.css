@@ -113,3 +113,11 @@ html body header * {
     width: fit-content !important;
     z-index: -1;
 }
+
+.diagonal-footer {
+    color: #E8E5E2;
+    background: #333333 url(img/asfalt-dark.png) repeat center;
+    clip-path: polygon(0% 0%, 100% 50%, 100% 100%, 0% 100%);
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
