@@ -10,40 +10,38 @@
         <link rel="stylesheet" href="styles.css">
         <!--Bootstrap CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <!--Logo and Title-->
         <header>
             <img src="img/_Logo_shape-removebg-preview.png" alt="Kannawin Logo" class="logo mt-3"/>
-            <h1>Kannawin</h1>
+            <h1><strong>Kannawin</strong></h1>
             <p>Design and Development</p>
         </header>
 
         <!--Nav Bar Formatting-->
         <nav class="navbar navbar-light justify-content-center mt-1">
-            <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
+            <ul class="nav fs-5">
+                  <a class="nav-link"  href="#about">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="#work">My Work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">My Work</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link last-link" href="#">Contact</a>
+                  <a class="nav-link last-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
 
         <!--Home and Introduction-->
-        <div class="diagonal-box my-1 shadow">
+        <div class="diagonal-box my-1 shadow" id="about">
             <div class="container content">
                 <div class="row">
                     <div class="my-4 col-md">
-                        <h2 class="fs-1">Hey, I'm C.J.!</h2>
+                        <h2 class="fs-1"><strong>Hey, I'm C.J.!</strong></h2>
                         <p class="fs-3">I am a front-end web designer and developer from Minneapolis, MN.
                             I create sites to blend visual experience to enhance digital presence.</p>
                         <button type="button" class="btn btn-outline-dark btn-lg mx-auto d-block resume-btn"><strong>My Resume</strong></button>
@@ -61,7 +59,7 @@
         </div>
 
         <!--My Work Section-->
-        <div class="container mt-3 overflow-hidden">
+        <div class="container mt-3 overflow-hidden" id="work">
             <h2>My Work</h2>
 
             <!--Projects Grid-->
@@ -130,18 +128,18 @@
         </div>
 
         <!-- Contact Section-->
-        <div class="container mt-4 pt-3 text-center border-top border-dark border-1">
-            <h2>Want To Work Together?</h2>
+        <div class="container mt-4 pt-3 text-center border-top border-dark border-1" id="contact">
+            <h2><strong>Want To Work Together?</strong></h2>
             <p>Lets talk about your next project.</p>
             
-            <div class="mt-4 d-flex flex-column flex-md-row align-items-center justify-content-evenly">
+            <div class="mt-4 d-flex flex-column flex-md-row align-items-center justify-content-evenly ">
                 
                 <div class="position-relative">
                     <div class="contact-card position-relative d-flex justify-content-center align-items-center shadow-lg">
                         <img src="img/mail-icon.svg" class="icon-md" alt="Email Icon" />
                     </div>
                     <div class="overlay position-absolute top-50 start-50 translate-middle">
-                        <a class="btn btn-primary contact-btn position-absolute top-50 start-50 translate-middle" href="#" role="button">
+                        <a class="btn btn-primary contact-btn position-absolute top-50 start-50 translate-middle fs-5" href="#" role="button">
                             Email Me
                             <span style="color: #D7695C;">&rarr;</span>
                         </a>
@@ -153,7 +151,7 @@
                         <img src="img/linkedin-icon.svg" class="icon-md" alt="LinkedIn Icon" />
                     </div>
                     <div class="overlay position-absolute top-50 start-50 translate-middle">
-                        <a class="btn btn-primary contact-btn position-absolute top-50 start-50 translate-middle" href="#" role="button">
+                        <a class="btn btn-primary contact-btn position-absolute top-50 start-50 translate-middle" href="#" role="button" style="font-size: 1.2rem;">
                             Connect With Me
                             <span style="color: #D7695C;">&rarr;</span>
                         </a>
@@ -165,8 +163,8 @@
                         <img src="img/github-icon.svg" class="icon-md" alt="Email Icon" />
                     </div>
                     <div class="overlay position-absolute top-50 start-50 translate-middle">
-                        <a class="btn btn-primary contact-btn position-absolute top-50 start-50 translate-middle" href="#" role="button">
-                            See More Work
+                        <a class="btn btn-primary contact-btn position-absolute top-50 start-50 translate-middle fs-5" href="#" role="button">
+                            See My Work
                             <span style="color: #D7695C;">&rarr;</span>
                         </a>
                     </div>
@@ -190,17 +188,17 @@
         <!--Footer-->
 
         <footer class="mt-5">
-            <div class="d-flex diagonal-footer text-center justify-content-between">
+            <div class="d-flex diagonal-footer justify-content-between">
                 <div class="d-flex flex-row">
                     <img src="img/_Logo_shape-removebg-preview.png" alt="Kannawin Logo" class="footer-logo align-self-center"/>
                     <div class="mx-2 align-self-center">
-                        <h1>Kannawin</h1>
-                        <p>Design and Development</p>
+                        <h3 class="m-0 d-none d-md-block">Kannawin</h3>
+                        <p class="m-0 d-none d-md-block"><small>Design and Development</small></p>
                     </div>
                 </div>
 
                 <div class="mt-5 align-self-end pt-5 mx-2">
-                    <p class="m-0">2021 CJ Kannawin. All Rights Reserved.</p>
+                    <p class="m-0"><small>&copy;2021 CJ Kannawin. All Rights Reserved.</small></p>
                 </div>
             </div>
         </footer>

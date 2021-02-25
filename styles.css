@@ -1,7 +1,10 @@
 
+
+
 html body,
 html body nav {
     background-color: #E8E5E2;
+    font-family: 'Barlow', sans-serif;
 }
 html body {
     margin: 0;
